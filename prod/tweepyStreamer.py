@@ -28,8 +28,7 @@ class StdOutListener(StreamListener):
             self.list_tweet.append(data)
             dataToCsv.write(data, self.cont);
             self.cont +=  1
-
-        print(str(self.cont) + " tweets encontrados")
+            print(str(self.cont) + " tweets encontrados")
 
     def on_error(self, status):
         print(status)
