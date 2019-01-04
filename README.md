@@ -13,11 +13,15 @@ Modificar el archivo **`credentials.py`** y añadir vuestras **credenciales de d
 
 ## Uso
 
-Introducimos el nombre de nuestro archivo **`CSV`** de salida.
+Ejecutamos el script con la siguiente orden en la terminal.
+
+![Texto alternativo](images/comando1.png)
+
+Introducimos el **nombre** de nuestro archivo **`CSV`** de salida.
 
 ![Texto alternativo](images/captura1.png)
 
-Introducimos el patrón de búsqueda.
+Introducimos el **patrón de búsqueda**.
 
 ![Texto alternativo](images/captura2.png)
 
