@@ -27,26 +27,9 @@ def strip_undesired_chars(tweet):
 
     removed_url = stripped_tweet.translate(trans)
     return removeEnye(removeSign((remove_url(removed_url))))
-"""
-def write_csv_type_of_param(nombre_archivo_salida,tweets, type):
-    with open(nombre_archivo_salida + ".csv", type, newline='') as f:
-        writer = csv.writer(f, quoting=csv.QUOTE_ALL)
-        if type == "w":
-            writer.writerow(['text'])
-        for tweet in tweets:
-            writer.writerow([strip_undesired_chars(tweet)])
-    pass
 
-def write_csv(tweets):
-    nombre_archivo_salida = input("Introduce el nombre del archivo csv de salida (si el archivo ya existe se añaden los nuevos datos al mismo): ");
-
-    if os.path.isfile(nombre_archivo_salida):
-        write_csv_type_of_param(nombre_archivo_salida,tweets, "a");
-    else:
-        write_csv_type_of_param(nombre_archivo_salida,tweets, "w");
-"""
-def write(tweet, cont):
-    with open("tweets.csv", "a", newline='') as f:
+def write(file_name,tweet, cont):
+    with open(file_name + ".csv", "a", newline='') as f:
         writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         if cont == 0:
             writer.writerow(['text'])
