@@ -13,13 +13,17 @@ Modificar el archivo **`credentials.py`** y añadir vuestras **credenciales de d
 
 ## Uso
 
-Primero de todo, debemos añadir el **filtro para capturar solamente los tweets que nos interesan**, podemos usar solo una palabra o varias, para ellos debemos de editar el archivo **`tweepyStreamer.py`** y modificar el **track para añadir nuestras palabras filtro**.
+Introducimos el nombre de nuestro archivo **`CSV`** de salida.
 
-![Texto alternativo](images/palabras.png)
+![Texto alternativo](images/captura1.png)
 
-Lanzamos el script del **`tweepyStreamer.py`**, y la información se irá escribiendo en el archivo **`tweets.csv`**. Para finalizar el **streamer bastará con cerrar la terminal donde se esta ejecuntado**.
+Introducimos el patrón de búsqueda.
 
-![Texto alternativo](images/comando1.png)
+![Texto alternativo](images/captura2.png)
+
+El script comenzará a trabajar, para deternerlo pulsamos la tecla **`control + c`**.
+
+![Texto alternativo](images/captura3.png)
 
 
 ## Salida
