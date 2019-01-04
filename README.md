@@ -8,6 +8,7 @@ Scripts hechos en **python**, con los que se podrá obtener tweets en tiempo rea
 
 - **Instalar [PYTHON](PYTHON "https://www.python.org/downloads/").**
 - **Instalar TWEEPY**, abre terminal y escribe **`pip3 install tweepy`**.
+- **Instalar Colorama**, abre terminal y escribe **`pip3 install colorama`**.
 - **Credenciales de desarrollador de [TWITTER](TWITTER "https://developer.twitter.com/")**.
 Modificar el archivo **`credentials.py`** y añadir vuestras **credenciales de desarrollador de twitter**.
 
